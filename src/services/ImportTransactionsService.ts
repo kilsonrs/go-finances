@@ -9,7 +9,6 @@ import uploadConfig from '../config/upload';
 
 interface Request {
   importFilename: string;
-  type: string;
 }
 
 class ImportTransactionsService {
